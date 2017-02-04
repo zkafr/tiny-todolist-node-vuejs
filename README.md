@@ -16,12 +16,15 @@ Run the example
 -----
 - Clone `git clone https://github.com/zkafr/tiny-todolist-node-vuejs.git`
 - Go in `cd tiny-todolist-node-vuejs`
-- Download mongo binaries from https://www.mongodb.com/download-center
-- Extract mongo's files into `bin/` directory
-- Run MongoDB `bin/mongod --dbpath=db --port 27017`
 - Install node packages `npm install`
 - Finally run `node server.js`
 - And open a browser at http://localhost:3000/ 
+
+If you have not a Mongo DB server, proceed that
+-----
+- Download mongo binaries from https://www.mongodb.com/download-center
+- Extract mongo's files into `bin/` directory
+- Run MongoDB `bin/mongod --dbpath=db --port 27017`
 
 This code is a sample, it was build for as a demo code usage. So read the code to understand ;-)
 
@@ -32,5 +35,3 @@ The official docs links
 - Vue.js 2 : https://vuejs.org/v2/api/
 - Vue-resource : https://github.com/pagekit/vue-resource
 - Bootstrap 3 : http://getbootstrap.com/getting-started/
-=======
-# tiny-todolist-node-vuejs
